@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: your-app-name
+    env: php
+    buildCommand: apt-get install -y php-mysqli
+    startCommand: php -S 0.0.0.0:$PORT -t /var/www/html
