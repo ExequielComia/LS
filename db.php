@@ -62,7 +62,7 @@ if (!function_exists('logAction')) {
         }
     }
 }
-=======
+
 <?php
 
 $servername = "localhost";
